@@ -10,13 +10,18 @@ import UIKit
 class ChatViewController: UIViewController {
 
     
-    @IBOutlet weak var test: UILabel!
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var messageTextField: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        test.text = "testi u krye me sukses"
+
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func sendMessage(_ sender: UIButton) {
+        
+    }
+    
 }
